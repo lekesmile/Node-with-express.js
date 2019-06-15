@@ -3,11 +3,11 @@ const app = express ();
 
 
 app.get('/', (req, res) =>{
-  res.send("Hello");
+  res.send("<h1> Hello ! Welcome to Node js with express framework</h1>");
 });
 
 app.get('/contact' ,(req, res) =>{
-  res.send('contact');
+  res.send('you can reach me at lekesmile1@gmail.com');
 });
 
 app.get('/about', (req, res) =>{
